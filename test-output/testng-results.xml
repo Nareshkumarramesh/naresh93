@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-11T17:47:25 IST" name="test suite" finished-at="2021-02-11T17:47:42 IST" duration-ms="16885">
+    <groups>
+    </groups>
+    <test started-at="2021-02-11T17:47:25 IST" name="test Cases" finished-at="2021-02-11T17:47:42 IST" duration-ms="16885">
+      <class name="classone.Testngdemo">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:classone.Testngdemo@69e1dd28]" started-at="2021-02-11T17:47:25 IST" name="browserLaunch" finished-at="2021-02-11T17:47:40 IST" duration-ms="14348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="sTime()[pri:0, instance:classone.Testngdemo@69e1dd28]" started-at="2021-02-11T17:47:40 IST" name="sTime" finished-at="2021-02-11T17:47:40 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sTime -->
+        <test-method signature="userDetails(java.lang.String, java.lang.String)[pri:0, instance:classone.Testngdemo@69e1dd28]" started-at="2021-02-11T17:47:40 IST" name="userDetails" finished-at="2021-02-11T17:47:41 IST" duration-ms="1695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method is-config="true" signature="eTime()[pri:0, instance:classone.Testngdemo@69e1dd28]" started-at="2021-02-11T17:47:41 IST" name="eTime" finished-at="2021-02-11T17:47:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eTime -->
+        <test-method is-config="true" signature="close()[pri:0, instance:classone.Testngdemo@69e1dd28]" started-at="2021-02-11T17:47:41 IST" name="close" finished-at="2021-02-11T17:47:42 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- classone.Testngdemo -->
+    </test> <!-- test Cases -->
+  </suite> <!-- test suite -->
+</testng-results>

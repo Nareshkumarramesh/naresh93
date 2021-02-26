@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite  name = "test suite">
+<test name= "test Cases">
+
+<parameter name="Email" value="abc@gmail.com"></parameter>
+<parameter name="Pass" value="12345678"></parameter>
+<classes>
+<class name = "classone.Testngdemo"></class>
+
+</classes>
+</test>
+</suite>
